@@ -1,6 +1,5 @@
 class Area:
     def area(self, *args):
-        """Calcula el área de diferentes figuras geométricas dependiendo de los parámetros recibidos."""
         
         if len(args) == 1: 
             radio = args[0]
